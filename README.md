@@ -59,7 +59,7 @@ Create GitHub Account ได้ที่ [Join GitHub](https://github.com/)
 
 
 # Answer
-
+```
 package main
 
 import (
@@ -81,9 +81,9 @@ func reverse(str string) string {
 //Use For Answer
 func main() {
 
-     var whatIsIt string
+     **var whatIsIt string**
    
-	   secret := "aWFuZ25vVzpOQU06RU5JTDp0YTpzdTpuaW9K"
+	   **secret := "aWFuZ25vVzpOQU06RU5JTDp0YTpzdTpuaW9K"**
    
 	   sd, _ := base64.StdEncoding.DecodeString(secret)
    
@@ -92,3 +92,4 @@ func main() {
 	   fmt.Println(whatIsIt)
    
    }
+```
